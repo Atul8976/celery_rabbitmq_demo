@@ -5,5 +5,6 @@ start celery worker with rabbitmq
 
 celery -A projectname worker -l info -P gevent
 
-delete pending stask from rabbitmq
+delete pending task from rabbitmq
+
 celery -A projectname purge
